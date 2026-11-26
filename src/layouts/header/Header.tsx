@@ -4,11 +4,11 @@ import { useCallback, useState } from "react";
 import { Menu } from "lucide-react";
 import { AuthActions } from "./AuthActions";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { Logo } from "./Logo";
 import { MobileSidebar } from "./MobileSidebar";
 import { NavLinks } from "./NavLinks";
 import type { HeaderSectionProps } from "./types";
 import { useHeaderScroll } from "./useHeaderScroll";
+import { Logo } from "@/components/atoms/Logo";
 
 const FIXED_BAR =
   "fixed inset-x-0 top-0 z-50 h-[86px] bg-white/95 shadow-sm backdrop-blur-md transition-transform duration-300 ease-out";
@@ -27,7 +27,8 @@ export function Header({ lang, content }: HeaderSectionProps) {
     <header className={`relative z-40 h-[86px] ${fontClass}`}>
       <div className={barClass}>
         <div className="mx-auto flex h-full w-full max-w-[1375px] items-center px-4 sm:px-8 lg:px-6 xl:px-8">
-          <Logo lang={lang} />
+          <Logo lang={lang} width={0} />
+          <Logo lang={lang} width={67} />
           <NavLinks {...shared} active={active} />
           <div className="ms-auto hidden items-center gap-3 lg:flex">
             <LanguageSwitcher {...shared} />

@@ -5,7 +5,7 @@ import { Toaster } from "sonner";
 import "../globals.css";
 import { metadataHome } from "@/meta/homeMeta";
 import { getDictionary, isLocale, locales } from "@/content";
-import { Header } from "@/layouts";
+import { Footer, Header } from "@/layouts";
 
 export const metadata: Metadata = metadataHome;
 
@@ -34,6 +34,7 @@ export default async function LangLayout({
       >
         <Header lang={lang} content={content.home.header} />
         {children}
+        <Footer lang={lang} content={content.home.footer} />
         <Toaster position="top-center" richColors />
       </body>
     </html>
