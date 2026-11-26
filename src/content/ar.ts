@@ -31,6 +31,34 @@ export const ar: Dictionary = {
       ],
       copyright: "جميع الحقوق محفوظة لـ Chair Location | تطوير **e-RAMO للحلول الرقمية**",
     },
+    latestListings: {
+      title: "أحدث الإعلانات",
+      subtitle: "تصفح أحدث مساحات العمل المتاحة لدينا",
+      availableBadge: "متاح",
+      notAvailableBadge: "غير متاح",
+      reviewLabel: "تقييم",
+      perLabel: "أفراد",
+      openStatus: "مفتوح",
+      closedStatus: "مغلق",
+      startsFrom: "يبدأ من :",
+      perHour: "/ساعة",
+      currency: "ريال",
+    },
+    about: {
+      title: "عن تشير لوكيشن",
+      description:
+        "«تشير لوكيشن» هو موقع يتيح لك البحث عن مساحات العمل المشتركة والعثور عليها وحجزها، بما في ذلك المكاتب المشتركة، والمكاتب الخاصة، وغرف الاجتماعات، والمكاتب الافتراضية القريبة منك. كما يعرض المزايا والمرافق التي توفرها كل مساحة، ليتمكن المحترفون والشركات من مقارنة جميع مساحات العمل المتاحة واختيار الأنسب لاحتياجاتهم من حيث الخدمات والتجهيزات.",
+      subtitle: "لماذا تشير لوكيشن",
+      features: [
+        { id: "locations", text: "أكثر من (4652) موقع", icon: "location" },
+        { id: "amenities", text: "نوفر جميع المرافق والخدمات في كافة مواقعنا", icon: "amenities" },
+        { id: "support", text: "جميع أنواع الدعم الفني على مدار الساعة 24/7", icon: "support" },
+      ],
+      actions: {
+        viewProducts: "عرض المنتجات",
+        bookNow: "احجز الآن",
+      },
+    },
     hero: {
       titleLine1: "المكتب الذي يناسبك",
       titleLine2: "طريقة إبداعية للعمل",

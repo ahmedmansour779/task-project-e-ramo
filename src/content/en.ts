@@ -29,6 +29,34 @@ export const en = {
       ],
       copyright: "All Copyrights Chair Location | Developed by **e-RAMO For Digital Solutions**",
     },
+    latestListings: {
+      title: "Latest Listings",
+      subtitle: "Check our latest listings",
+      availableBadge: "Available",
+      notAvailableBadge: "Not Available",
+      reviewLabel: "Review",
+      perLabel: "Per",
+      openStatus: "Open",
+      closedStatus: "Closed",
+      startsFrom: "Starts From :",
+      perHour: "/HOUR",
+      currency: "SAR",
+    },
+    about: {
+      title: "About Chair Location",
+      description:
+        "“Chair location” is a website where you can search, find and reserve co-working space, including co-working offices, private offices, meeting rooms, and virtual offices near you. It shows the features and amenities this space can provide. Professionals and businesses can then compare all available co-working spaces to find one with the services and facilities that best suit their requirements.",
+      subtitle: "Why Chair Location",
+      features: [
+        { id: "locations", text: "More Than (4652) Location", icon: "location" },
+        { id: "amenities", text: "We Offer All Amenities in Our All Location", icon: "amenities" },
+        { id: "support", text: "All Kinda Of Supports 24/7", icon: "support" },
+      ],
+      actions: {
+        viewProducts: "View Products",
+        bookNow: "Book Now",
+      },
+    },
     hero: {
       titleLine1: "Office That Fit You",
       titleLine2: "Creative Way To Work",

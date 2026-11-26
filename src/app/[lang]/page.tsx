@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/content";
-import { HeroSection } from "@/features/landing";
+import { AboutSection, HeroSection, LatestListingsSection } from "@/features/landing";
 
 export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -11,6 +11,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   return (
     <main className="min-h-screen">
       <HeroSection content={home.hero} />
+      <AboutSection lang={lang} content={home.about} />
+      <LatestListingsSection lang={lang} content={home.latestListings} />
     </main>
   );
 }

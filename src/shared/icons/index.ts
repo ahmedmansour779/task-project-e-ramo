@@ -1,5 +1,17 @@
+export { AboutAmenitiesIcon } from "./AboutAmenitiesIcon";
+export { AboutLocationIcon } from "./AboutLocationIcon";
+export { AboutSupportIcon } from "./AboutSupportIcon";
 export { AppStoreBadge } from "./AppStoreBadge";
 export { GooglePlayBadge } from "./GooglePlayBadge";
+export {
+  ListingArrowIcon,
+  ListingCalendarIcon,
+  ListingCapacityIcon,
+  ListingHeartIcon,
+  ListingRibbonShape,
+  ListingShareIcon,
+  ListingStarIcon,
+} from "./ListingIcons";
 export { LocationIcon } from "./LocationIcon";
 export { MeetingRoomsIcon } from "./MeetingRoomsIcon";
 export { PrivateOfficesIcon } from "./PrivateOfficesIcon";
