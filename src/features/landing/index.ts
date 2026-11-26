@@ -1,5 +1,6 @@
 export {
   AboutSection,
+  DownloadAppSection,
   HeroSection,
   HowItWorksSection,
   HybridWorkingSection,

@@ -29,6 +29,16 @@ export const en = {
       ],
       copyright: "All Copyrights Chair Location | Developed by **e-RAMO For Digital Solutions**",
     },
+    downloadApp: {
+      title: "Explore The Chair Location App",
+      description:
+        "Hybrid working offers you the freedom to work closer to clients, colleagues or home.",
+      stores: {
+        googlePlay: "Get it on Google Play",
+        appStore: "Download on the App Store",
+      },
+      mockupAlt: "Chair Location mobile application preview",
+    },
     hybridWorking: {
       title: "Hybrid working can work for you",
       description:

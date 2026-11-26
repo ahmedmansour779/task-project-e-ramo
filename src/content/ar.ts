@@ -31,6 +31,16 @@ export const ar: Dictionary = {
       ],
       copyright: "جميع الحقوق محفوظة لـ Chair Location | تطوير **e-RAMO للحلول الرقمية**",
     },
+    downloadApp: {
+      title: "استكشف تطبيق تشير لوكيشن",
+      description:
+        "يمنحك العمل الهجين حرية العمل بالقرب من عملائك أو زملائك أو منزلك بكل مرونة وسهولة.",
+      stores: {
+        googlePlay: "احصل عليه من Google Play",
+        appStore: "حمّله من App Store",
+      },
+      mockupAlt: "معاينة تطبيق تشير لوكيشن للهواتف الذكية",
+    },
     hybridWorking: {
       title: "العمل الهجين يناسب أسلوب حياتك",
       description:

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/content";
 import {
   AboutSection,
+  DownloadAppSection,
   HeroSection,
   HowItWorksSection,
   HybridWorkingSection,
@@ -23,6 +24,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <ProductsSection lang={lang} content={home.products} />
       <HowItWorksSection content={home.howItWorks} />
       <HybridWorkingSection lang={lang} content={home.hybridWorking} />
+      <DownloadAppSection content={home.downloadApp} />
     </main>
   );
 }
