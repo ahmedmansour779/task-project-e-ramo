@@ -1,7 +1,12 @@
 export { AboutSection } from "./AboutSection";
+export { ArticlesSection } from "./ArticlesSection";
+export { ContactUsSection } from "./ContactUsSection";
 export { DownloadAppSection } from "./DownloadAppSection";
 export { HeroSection } from "./HeroSection";
 export { HowItWorksSection } from "./HowItWorksSection";
 export { HybridWorkingSection } from "./HybridWorkingSection";
 export { LatestListingsSection } from "./LatestListingsSection";
+export { PricingSection } from "./PricingSection";
 export { ProductsSection } from "./ProductsSection";
+export { SubscribeSection } from "./SubscribeSection";
+export { TrustedSection } from "./TrustedSection";

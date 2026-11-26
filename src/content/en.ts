@@ -29,6 +29,183 @@ export const en = {
       ],
       copyright: "All Copyrights Chair Location | Developed by **e-RAMO For Digital Solutions**",
     },
+    subscribe: {
+      heading: "Subscribe To Our Newsletter",
+      subtitle:
+        "Every couple of weeks we send out an update and a few things that have inspired us.",
+      emailPlaceholder: "Write Your Mail Here...",
+      buttonLabel: "Subscribe",
+      validationError: "Please enter a valid email address.",
+      successMessage: "You have subscribed to our newsletter successfully!",
+    },
+    trusted: {
+      heading: "Chair Location Is Trusted By The World’s Largest Companies.",
+      subtitle:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      partners: [
+        { id: "partner-1", name: "Almarai", logoKey: "almarai" },
+        { id: "partner-2", name: "Aramco", logoKey: "aramco" },
+        { id: "partner-3", name: "STC", logoKey: "stc" },
+        { id: "partner-4", name: "NEOM", logoKey: "neom" },
+        { id: "partner-5", name: "SABIC", logoKey: "sabic" },
+        { id: "partner-6", name: "ROSHN", logoKey: "roshn" },
+        { id: "partner-7", name: "Jarir", logoKey: "jarir" },
+        { id: "partner-8", name: "Careem", logoKey: "careem" },
+      ],
+    },
+    contactUs: {
+      heading: "Contact Us",
+      subtitle: "We Are Here For Your Help",
+      formHeading: "Please fill the upcoming fields",
+      details: {
+        phone: "+966 11 520 4800",
+        email: "hello@chairlocation.com",
+        address: "King Fahd Road, Olaya District, Riyadh",
+      },
+      placeholders: {
+        fullName: "Full Name...",
+        email: "E-mail...",
+        phone: "Phone Number...",
+        city: "City...",
+        message: "Message Text...",
+      },
+      submitButton: "Send",
+      validationError:
+        "Please complete all required fields with a valid email address.",
+      successMessage: "Thank you! Your message has been sent successfully.",
+    },
+    articles: {
+      heading: "Our Recent Articles",
+      subtitle: "Stay Informed with Our Latest Insights",
+      readMoreLabel: "Read More",
+      prevLabel: "Previous article",
+      nextLabel: "Next article",
+      items: [
+        {
+          id: "article-1",
+          title: "Blog Title Here",
+          excerpt:
+            "In the realm of modern business operations, a Point of Sale (POS) system serves as more than just a tool for processing transactions. It represents a dynamic platform with the capacity to revolutionize the way businesses operate.",
+          category: "Mohamed MO",
+          date: "20 Apr 2024",
+          imageKey: "article-1",
+        },
+        {
+          id: "article-2",
+          title: "Blog Title Here",
+          excerpt:
+            "In the realm of modern business operations, a Point of Sale (POS) system serves as more than just a tool for processing transactions. It represents a dynamic platform with the capacity to revolutionize the way businesses operate.",
+          category: "Mohamed MO",
+          date: "20 Apr 2024",
+          imageKey: "article-2",
+        },
+        {
+          id: "article-3",
+          title: "Blog Title Here",
+          excerpt:
+            "One of the primary functions of a POS system is to process transactions and handle sensitive customer data, such as credit card information. Advanced POS systems utilize encryption technology to protect this data.",
+          category: "Mohamed MO",
+          date: "20 Apr 2024",
+          imageKey: "article-3",
+        },
+        {
+          id: "article-4",
+          title: "Designing Ergonomic Hybrid Workspaces",
+          excerpt:
+            "Flexible office layouts and ergonomic seating empower distributed teams to collaborate comfortably, boost daily focus, and scale workspace capacity effortlessly.",
+          category: "Mohamed MO",
+          date: "14 May 2024",
+          imageKey: "article-4",
+        },
+      ],
+    },
+    pricing: {
+      eyebrow: "PRICING",
+      heading: "Simple, transparent pricing",
+      subtitle:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel venenatis eu sit massa volutpat.",
+      billing: {
+        monthly: "Monthly",
+        annually: "Annually",
+        toggleAriaLabel: "Toggle annual billing",
+        monthlyPeriod: "/monthly",
+        annuallyPeriod: "/annually",
+      },
+      sidebar: {
+        optionsTitle: "Select From The Upcoming Options.",
+        categories: [
+          { id: "shared-space", label: "Shared Space", icon: "shared-space" },
+          { id: "meeting-rooms", label: "Meeting Rooms", icon: "meeting-rooms" },
+          { id: "private-offices", label: "Private Offices", icon: "private-offices" },
+          { id: "virtual-offices", label: "Virtual Offices", icon: "virtual-offices" },
+        ],
+        helpTitle: "Do you face Any Problems ?",
+        helpSubtitle: "Contact us Any time Anyplace we will be Happy.",
+        availableLabel: "Available 24/7",
+        contactLinkLabel: "Contact Us",
+      },
+      whatsIncluded: "What’s included",
+      currency: "SAR",
+      plans: [
+        {
+          id: "basic",
+          icon: "basic",
+          audience: "For individuals",
+          name: "Basic",
+          badge: "",
+          monthlyPrice: 99,
+          annualPrice: 990,
+          description:
+            "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+          features: [
+            "10 Hours / Week",
+            "25 Hours in Shared area / Month",
+            "Free 1 hour private office",
+            "Up to 3 team members",
+          ],
+          ctaLabel: "Get started",
+          isFeatured: false,
+        },
+        {
+          id: "popular",
+          icon: "popular",
+          audience: "For mid companies",
+          name: "Enterprise",
+          badge: "Popular Plan (Best Sales)",
+          monthlyPrice: 199,
+          annualPrice: 1990,
+          description:
+            "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+          features: [
+            "All analytics features",
+            "Up to (1Million) tracked visits",
+            "Premium support",
+            "Up to 10 team members",
+          ],
+          ctaLabel: "Get started",
+          isFeatured: true,
+        },
+        {
+          id: "enterprise",
+          icon: "enterprise",
+          audience: "For big companies",
+          name: "Enterprise",
+          badge: "",
+          monthlyPrice: 399,
+          annualPrice: 3990,
+          description:
+            "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+          features: [
+            "All analytics features",
+            "Up to (5 Million) tracked visits",
+            "Dedicated support",
+            "Up to 50 team members",
+          ],
+          ctaLabel: "Get started",
+          isFeatured: false,
+        },
+      ],
+    },
     downloadApp: {
       title: "Explore The Chair Location App",
       description:

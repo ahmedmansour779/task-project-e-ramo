@@ -2,12 +2,17 @@ import { notFound } from "next/navigation";
 import { getDictionary, isLocale } from "@/content";
 import {
   AboutSection,
+  ArticlesSection,
+  ContactUsSection,
   DownloadAppSection,
   HeroSection,
   HowItWorksSection,
   HybridWorkingSection,
   LatestListingsSection,
+  PricingSection,
   ProductsSection,
+  SubscribeSection,
+  TrustedSection,
 } from "@/features/landing";
 
 export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {
@@ -25,6 +30,11 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <HowItWorksSection content={home.howItWorks} />
       <HybridWorkingSection lang={lang} content={home.hybridWorking} />
       <DownloadAppSection content={home.downloadApp} />
+      <PricingSection lang={lang} content={home.pricing} />
+      <ArticlesSection lang={lang} content={home.articles} />
+      <ContactUsSection lang={lang} content={home.contactUs} />
+      <TrustedSection content={home.trusted} />
+      <SubscribeSection content={home.subscribe} />
     </main>
   );
 }

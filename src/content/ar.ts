@@ -31,6 +31,183 @@ export const ar: Dictionary = {
       ],
       copyright: "جميع الحقوق محفوظة لـ Chair Location | تطوير **e-RAMO للحلول الرقمية**",
     },
+    subscribe: {
+      heading: "اشترك في نشرتنا البريدية",
+      subtitle:
+        "نرسل كل أسبوعين آخر التحديثات ومجموعة مختارة من الأفكار ومساحات العمل التي ألهمتنا.",
+      emailPlaceholder: "اكتب بريدك الإلكتروني هنا...",
+      buttonLabel: "اشتراك",
+      validationError: "يرجى إدخال عنوان بريد إلكتروني صحيح.",
+      successMessage: "تم اشتراكك في نشرتنا البريدية بنجاح!",
+    },
+    trusted: {
+      heading: "تحظى تشير لوكيشن بثقة كبرى الشركات الرائدة حول العالم.",
+      subtitle:
+        "نفخر بشراكتنا مع نخبة من المؤسسات والشركات الرائدة لتوفير مساحات عمل عصرية ومرنة تلبي تطلعات فرقها.",
+      partners: [
+        { id: "partner-1", name: "المراعي", logoKey: "almarai" },
+        { id: "partner-2", name: "أرامكو", logoKey: "aramco" },
+        { id: "partner-3", name: "إس تي سي", logoKey: "stc" },
+        { id: "partner-4", name: "نيوم", logoKey: "neom" },
+        { id: "partner-5", name: "سابك", logoKey: "sabic" },
+        { id: "partner-6", name: "روشن", logoKey: "roshn" },
+        { id: "partner-7", name: "جرير", logoKey: "jarir" },
+        { id: "partner-8", name: "كريم", logoKey: "careem" },
+      ],
+    },
+    contactUs: {
+      heading: "تواصل معنا",
+      subtitle: "نحن هنا دائماً لمساعدتك",
+      formHeading: "يرجى تعبئة الحقول التالية",
+      details: {
+        phone: "+966 11 520 4800",
+        email: "hello@chairlocation.com",
+        address: "طريق الملك فهد، حي العليا، الرياض",
+      },
+      placeholders: {
+        fullName: "الاسم الكامل...",
+        email: "البريد الإلكتروني...",
+        phone: "رقم الجوال...",
+        city: "المدينة...",
+        message: "نص الرسالة...",
+      },
+      submitButton: "إرسال",
+      validationError:
+        "يرجى تعبئة جميع الحقول المطلوبة وإدخال بريد إلكتروني صحيح.",
+      successMessage: "شكراً لك! تم إرسال رسالتك بنجاح وسنتواصل معك قريباً.",
+    },
+    articles: {
+      heading: "أحدث مقالاتنا",
+      subtitle: "ابقَ على اطلاع دائم بأحدث الرؤى والمقالات الملهمة",
+      readMoreLabel: "اقرأ المزيد",
+      prevLabel: "المقال السابق",
+      nextLabel: "المقال التالي",
+      items: [
+        {
+          id: "article-1",
+          title: "كيف تختار مساحة العمل المشتركة الأنسب لفريقك",
+          excerpt:
+            "في عالم الأعمال الحديث، تمثل بيئة العمل المرنة أكثر من مجرد مكتب؛ فهي منصة متكاملة تعزز الإنتاجية وتدعم التعاون الإبداعي وتمكّن الشركات من النمو بثقة.",
+          category: "محمد مو",
+          date: "20 أبريل 2024",
+          imageKey: "article-1",
+        },
+        {
+          id: "article-2",
+          title: "مستقبل المكاتب المرنة والعمل الهجين للشركات",
+          excerpt:
+            "تتيح حلول المكاتب الهجينة للشركات تقليل التكاليف التشغيلية ومنح الموظفين حرية اختيار مواقع العمل القريبة من العملاء أو المنزل بكفاءة عالية.",
+          category: "محمد مو",
+          date: "20 أبريل 2024",
+          imageKey: "article-2",
+        },
+        {
+          id: "article-3",
+          title: "أمان البيانات والبنية التقنية في مساحات العمل الحديثة",
+          excerpt:
+            "تعتمد مساحات العمل المتطورة على شبكات مشفرة عالية السرعة وأنظمة دخول ذكية لحماية بيانات الشركات وضمان استمرارية الأعمال بأعلى معايير الأمان.",
+          category: "محمد مو",
+          date: "20 أبريل 2024",
+          imageKey: "article-3",
+        },
+        {
+          id: "article-4",
+          title: "تصميم مساحات عمل مريحة ترفع التركيز والإنتاجية",
+          excerpt:
+            "تسهم المقاعد المكتبية المريحة والإضاءة الطبيعية وقاعات الاجتماعات المعزولة صوتياً في خلق تجربة عمل يومية صحية ومحفزة للفرق الإبداعية.",
+          category: "محمد مو",
+          date: "14 مايو 2024",
+          imageKey: "article-4",
+        },
+      ],
+    },
+    pricing: {
+      eyebrow: "الأسعار",
+      heading: "أسعار بسيطة وشفافة",
+      subtitle:
+        "اختر الباقة المرنة التي تناسب احتياجات عملك أو فريقك مع شفافية كاملة ومزايا متكاملة بدون أي التزامات معقدة.",
+      billing: {
+        monthly: "شهري",
+        annually: "سنوي",
+        toggleAriaLabel: "التبديل بين الفوترة الشهرية والسنوية",
+        monthlyPeriod: "/شهرياً",
+        annuallyPeriod: "/سنوياً",
+      },
+      sidebar: {
+        optionsTitle: "اختر من الخيارات المتاحة أدناه.",
+        categories: [
+          { id: "shared-space", label: "مساحة مشتركة", icon: "shared-space" },
+          { id: "meeting-rooms", label: "غرف اجتماعات", icon: "meeting-rooms" },
+          { id: "private-offices", label: "مكاتب خاصة", icon: "private-offices" },
+          { id: "virtual-offices", label: "مكاتب افتراضية", icon: "virtual-offices" },
+        ],
+        helpTitle: "هل تواجه أي مشكلة؟",
+        helpSubtitle: "تواصل معنا في أي وقت ومن أي مكان وسنسعد بخدمتك.",
+        availableLabel: "متاحون 24/7",
+        contactLinkLabel: "تواصل معنا",
+      },
+      whatsIncluded: "ما تشمله الباقة",
+      currency: "ريال",
+      plans: [
+        {
+          id: "basic",
+          icon: "basic",
+          audience: "للأفراد",
+          name: "الأساسية",
+          badge: "",
+          monthlyPrice: 99,
+          annualPrice: 990,
+          description:
+            "باقة مثالية للمستقلين ورواد الأعمال الباحثين عن مساحة عمل هادئة ومرنة.",
+          features: [
+            "10 ساعات أسبوعياً",
+            "25 ساعة في المساحة المشتركة شهرياً",
+            "ساعة مجانية في مكتب خاص",
+            "حتى 3 أعضاء في الفريق",
+          ],
+          ctaLabel: "ابدأ الآن",
+          isFeatured: false,
+        },
+        {
+          id: "popular",
+          icon: "popular",
+          audience: "للشركات المتوسطة",
+          name: "الأعمال",
+          badge: "الباقة الأكثر طلباً (الأعلى مبيعاً)",
+          monthlyPrice: 199,
+          annualPrice: 1990,
+          description:
+            "حل متكامل للفرق المتنامية يشمل قاعات الاجتماعات والدعم المخصص والمزايا المتقدمة.",
+          features: [
+            "جميع مزايا التقارير والتحليلات",
+            "حتى مليون زيارة مسجلة",
+            "دعم فني متميز ذو أولوية",
+            "حتى 10 أعضاء في الفريق",
+          ],
+          ctaLabel: "ابدأ الآن",
+          isFeatured: true,
+        },
+        {
+          id: "enterprise",
+          icon: "enterprise",
+          audience: "للشركات الكبرى",
+          name: "المؤسسات",
+          badge: "",
+          monthlyPrice: 399,
+          annualPrice: 3990,
+          description:
+            "باقة شاملة مصممة للمؤسسات الكبرى التي تتطلب سعة عالية ودعماً مخصصاً على مدار الساعة.",
+          features: [
+            "جميع مزايا التقارير والتحليلات",
+            "حتى 5 ملايين زيارة مسجلة",
+            "مدير حساب ودعم مخصص",
+            "حتى 50 عضواً في الفريق",
+          ],
+          ctaLabel: "ابدأ الآن",
+          isFeatured: false,
+        },
+      ],
+    },
     downloadApp: {
       title: "استكشف تطبيق تشير لوكيشن",
       description:
