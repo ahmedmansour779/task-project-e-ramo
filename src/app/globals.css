@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --secondary: #0f172a;
+  --secondary-foreground: #ffffff;
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --surface: #f8fafc;
+  --surface-foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #f59e0b;
+  --accent-foreground: #0f172a;
+  --border: #e2e8f0;
+
+  /* Figma named color styles */
+  --green: #365327;
+  --off-white: #f9f8f6;
+  --write-main: #1a2921;
+  --lighter-green: #7c9a82;
+  --subwrite: #717a76;
+  --brown: #b49d97;
+  --neutral-600: #6f6c90;
+  --neutral-800: #170f49;
+
+  /* Figma unnamed fills (named by hex) */
+  --raw-ffffff: #ffffff;
+  --raw-000000: #000000;
+  --raw-f7f8f9: #f7f8f9;
+  --raw-f3f5f6: #f3f5f6;
+  --raw-eff0f6: #eff0f6;
+  --raw-eaecf0: #eaecf0;
+  --raw-f4f1ed: #f4f1ed;
+  --raw-fdf8f2: #fdf8f2;
+  --raw-fffaf5: #fffaf5;
+  --raw-fafff7: #fafff7;
+  --raw-f8e9d9: #f8e9d9;
+  --raw-e7caaa: #e7caaa;
+  --raw-d8d2c6: #d8d2c6;
+  --raw-c4c4c4: #c4c4c4;
+  --raw-b0968f: #b0968f;
+  --raw-a7bc9d: #a7bc9d;
+  --raw-879aaf: #879aaf;
+  --raw-94a3b8: #94a3b8;
+  --raw-64748b: #64748b;
+  --raw-4e657f: #4e657f;
+  --raw-172a41: #172a41;
+  --raw-2a3b32: #2a3b32;
+  --raw-101828: #101828;
+  --raw-e17b7b: #e17b7b;
+  --raw-cc4f4f: #cc4f4f;
+  --raw-ae5b5b: #ae5b5b;
+
+  /* Figma rgba values */
+  --shadow-soft: rgba(191, 189, 189, 0.04);
+  --shadow-card: rgba(20, 20, 43, 0.08);
+  --overlay-black-20: rgba(0, 0, 0, 0.2);
+  --overlay-black-25: rgba(0, 0, 0, 0.25);
+  --overlay-white-20: rgba(255, 255, 255, 0.2);
+  --overlay-white-50: rgba(255, 255, 255, 0.5);
+  --overlay-white-90: rgba(255, 255, 255, 0.9);
+
+  --font-cairo: "Cairo", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-foreground: var(--surface-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+
+  /* Figma named color styles */
+  --color-green: var(--green);
+  --color-off-white: var(--off-white);
+  --color-write-main: var(--write-main);
+  --color-lighter-green: var(--lighter-green);
+  --color-subwrite: var(--subwrite);
+  --color-brown: var(--brown);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-800: var(--neutral-800);
+
+  /* Figma unnamed fills (named by hex) */
+  --color-raw-ffffff: var(--raw-ffffff);
+  --color-raw-000000: var(--raw-000000);
+  --color-raw-f7f8f9: var(--raw-f7f8f9);
+  --color-raw-f3f5f6: var(--raw-f3f5f6);
+  --color-raw-eff0f6: var(--raw-eff0f6);
+  --color-raw-eaecf0: var(--raw-eaecf0);
+  --color-raw-f4f1ed: var(--raw-f4f1ed);
+  --color-raw-fdf8f2: var(--raw-fdf8f2);
+  --color-raw-fffaf5: var(--raw-fffaf5);
+  --color-raw-fafff7: var(--raw-fafff7);
+  --color-raw-f8e9d9: var(--raw-f8e9d9);
+  --color-raw-e7caaa: var(--raw-e7caaa);
+  --color-raw-d8d2c6: var(--raw-d8d2c6);
+  --color-raw-c4c4c4: var(--raw-c4c4c4);
+  --color-raw-b0968f: var(--raw-b0968f);
+  --color-raw-a7bc9d: var(--raw-a7bc9d);
+  --color-raw-879aaf: var(--raw-879aaf);
+  --color-raw-94a3b8: var(--raw-94a3b8);
+  --color-raw-64748b: var(--raw-64748b);
+  --color-raw-4e657f: var(--raw-4e657f);
+  --color-raw-172a41: var(--raw-172a41);
+  --color-raw-2a3b32: var(--raw-2a3b32);
+  --color-raw-101828: var(--raw-101828);
+  --color-raw-e17b7b: var(--raw-e17b7b);
+  --color-raw-cc4f4f: var(--raw-cc4f4f);
+  --color-raw-ae5b5b: var(--raw-ae5b5b);
+
+  /* Figma rgba values */
+  --color-shadow-soft: var(--shadow-soft);
+  --color-shadow-card: var(--shadow-card);
+  --color-overlay-black-20: var(--overlay-black-20);
+  --color-overlay-black-25: var(--overlay-black-25);
+  --color-overlay-white-20: var(--overlay-white-20);
+  --color-overlay-white-50: var(--overlay-white-50);
+  --color-overlay-white-90: var(--overlay-white-90);
+  --font-sans: var(--font-dm-sans), var(--font-open-sans), var(--font-cairo), sans-serif;
+  --font-cairo: var(--font-cairo);
+  --font-dm-sans: var(--font-dm-sans);
+  --font-open-sans: var(--font-open-sans);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
