@@ -29,6 +29,19 @@ export const en = {
       ],
       copyright: "All Copyrights Chair Location | Developed by **e-RAMO For Digital Solutions**",
     },
+    hero: {
+      titleLine1: "Office That Fit You",
+      titleLine2: "Creative Way To Work",
+      tabs: [
+        { id: "shared-space", label: "Shared Space", icon: "shared-space" },
+        { id: "private-offices", label: "Private Offices", icon: "private-offices" },
+        { id: "meeting-rooms", label: "Meeting Rooms", icon: "meeting-rooms" },
+        { id: "virtual-offices", label: "Virtual Offices", icon: "virtual-offices" },
+      ],
+      searchPlaceholder: "Search Here...",
+      searchNearby: "Search Nearby",
+      searchButton: "Search",
+    },
     header: {
       navItems: [
         { id: "home", label: "Home", href: "#home" },

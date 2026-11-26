@@ -31,6 +31,19 @@ export const ar: Dictionary = {
       ],
       copyright: "جميع الحقوق محفوظة لـ Chair Location | تطوير **e-RAMO للحلول الرقمية**",
     },
+    hero: {
+      titleLine1: "المكتب الذي يناسبك",
+      titleLine2: "طريقة إبداعية للعمل",
+      tabs: [
+        { id: "shared-space", label: "مساحة مشتركة", icon: "shared-space" },
+        { id: "private-offices", label: "مكاتب خاصة", icon: "private-offices" },
+        { id: "meeting-rooms", label: "غرف اجتماعات", icon: "meeting-rooms" },
+        { id: "virtual-offices", label: "مكاتب افتراضية", icon: "virtual-offices" },
+      ],
+      searchPlaceholder: "ابحث هنا...",
+      searchNearby: "ابحث بالقرب منك",
+      searchButton: "بحث",
+    },
     header: {
       navItems: [
         { id: "home", label: "الرئيسية", href: "#home" },

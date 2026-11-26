@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪑 Chair Location — Home & Office Furniture Platform
 
-## Getting Started
+A modern, pixel-perfect, fully bilingual (**English & Arabic**) landing page for **Chair Location**, showcasing home and office furniture collections, shared workspaces, private offices, meeting rooms, and virtual office solutions.
 
-First, run the development server:
+Built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS v4**, engineered with a clean **Feature-Based Architecture** and **Atomic Design** principles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Key Features
+
+- **Bilingual Support & Full RTL/LTR Symmetry:**
+  - Dynamic locale routing (`/en` for LTR and `/ar` for RTL).
+  - Centralized, strongly-typed content dictionaries (`src/content/en.ts` & `src/content/ar.ts`).
+  - Logical CSS properties (`ms-*`, `me-*`, `ps-*`, `pe-*`, `start-*`, `end-*`) for seamless directional mirroring.
+- **Pixel-Perfect Responsive UI:**
+  - Faithfully translated from Figma designs across desktop, tablet, and mobile viewports.
+  - Smooth scroll-triggered sticky navigation header and responsive slide-over mobile drawer.
+- **Smooth Animations & Interactive UI:**
+  - Powered by **Framer Motion** (`motion/react`) for fluid entrance animations and transitions.
+  - Interactive workspace category search tabs and location-based search bar.
+- **Scalable & Clean Codebase:**
+  - Strictly typed with TypeScript and organized into small, single-responsibility modules with barrel exports (`index.ts`).
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Framework** | Next.js 16 (App Router, Turbopack) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS v4, `clsx`, `tailwind-merge`, `tw-animate-css` |
+| **Animations** | Framer Motion (`motion/react`) |
+| **Forms & Validation** | React Hook Form, Zod, `@hookform/resolvers` |
+| **Data & State** | TanStack Query, Zustand, Axios |
+| **UI & Icons** | Lucide React, Swiper, Sonner, Custom Inline SVG Components |
+| **Typography** | Google Fonts (`Cairo`, `DM Sans`, `Open Sans`) |
+
+---
+
+## 📁 Project Architecture
+
+The project follows a **Feature-Based Architecture** combined with **Atomic Design** to ensure maintainability, separation of concerns, and easy scalability:
+
+```text
+src/
+├── app/
+│   ├── [lang]/               # Locale-based dynamic routing (en / ar)
+│   │   ├── layout.tsx        # Root locale layout (dir, fonts, Header, Footer)
+│   │   └── page.tsx          # Main landing page entry
+│   └── globals.css           # Tailwind CSS v4 config, font variables & Figma color tokens
+├── components/
+│   ├── atoms/                # Shared primitive UI elements
+│   ├── guards/               # Route/component guards
+│   └── ui/                   # Reusable base UI primitives
+├── content/
+│   ├── en.ts                 # English content dictionary
+│   ├── ar.ts                 # Arabic content dictionary
+│   └── index.ts              # Dictionary resolver & TypeScript types
+├── features/
+│   └── landing/              # Landing page domain feature
+│       ├── components/
+│       │   ├── atoms/        # Smallest landing components (e.g., HeroHeading)
+│       │   ├── molecules/    # Composite components (e.g., HeroSearchTabs, HeroSearchBar)
+│       │   └── organisms/    # Full page sections (e.g., HeroSection)
+│       ├── data/             # Static/structured feature data
+│       ├── hooks/            # Custom feature hooks
+│       ├── schemas/          # Zod validation schemas
+│       ├── services/         # API integration layer
+│       ├── types/            # Feature-specific TypeScript interfaces
+│       └── index.ts          # Feature barrel exports
+├── layouts/
+│   ├── header/               # Modular sticky Header, NavLinks, LanguageSwitcher & MobileSidebar
+│   ├── footer/               # Modular responsive Footer, Brand, Links & App Download
+│   └── index.ts              # Layout barrel exports
+├── lib/                      # Utility functions & configurations
+├── providers/                # Context & query providers
+└── shared/
+    ├── icons/                # Custom inline SVG components (App Store, Google Play, etc.)
+    └── images/               # Optimized local visual assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
+- **Node.js** `>= 20.x`
+- **pnpm** `>= 9.x`
 
-## Learn More
+### Installation & Local Development
 
-To learn more about Next.js, take a look at the following resources:
+1. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Run the development server:**
+   ```bash
+   pnpm dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Open in browser:**
+   - English (LTR): [http://localhost:3000/en](http://localhost:3000/en)
+   - Arabic (RTL): [http://localhost:3000/ar](http://localhost:3000/ar)
 
-## Deploy on Vercel
+### Production Build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm build
+pnpm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👨‍💻 Author
+
+**Ahmed Mansour** — Front-End Developer (React.js / Next.js / TypeScript)  
+Developed as a technical assessment for **e-RAMO For Digital Solutions**.

@@ -152,3 +152,10 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+html[dir="rtl"],
+html[lang="ar"],
+[dir="rtl"] body,
+[dir="rtl"] body * {
+  font-family: var(--font-cairo), sans-serif !important;
+}
