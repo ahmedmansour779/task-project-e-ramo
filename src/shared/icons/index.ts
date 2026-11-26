@@ -14,6 +14,13 @@ export {
 } from "./ListingIcons";
 export { LocationIcon } from "./LocationIcon";
 export { MeetingRoomsIcon } from "./MeetingRoomsIcon";
+export {
+  PriceTagIcon,
+  ProductMeetingIcon,
+  ProductPrivateIcon,
+  ProductSharedIcon,
+  ProductVirtualIcon,
+} from "./ProductIcons";
 export { PrivateOfficesIcon } from "./PrivateOfficesIcon";
 export { SearchIcon } from "./SearchIcon";
 export { SharedSpaceIcon } from "./SharedSpaceIcon";

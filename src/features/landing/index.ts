@@ -1,1 +1,8 @@
-export { AboutSection, HeroSection, LatestListingsSection } from "./components/organisms";
+export {
+  AboutSection,
+  HeroSection,
+  HowItWorksSection,
+  HybridWorkingSection,
+  LatestListingsSection,
+  ProductsSection,
+} from "./components/organisms";

@@ -29,6 +29,119 @@ export const en = {
       ],
       copyright: "All Copyrights Chair Location | Developed by **e-RAMO For Digital Solutions**",
     },
+    hybridWorking: {
+      title: "Hybrid working can work for you",
+      description:
+        "Hybrid working offers you the freedom to work closer to clients, colleagues or home. It's also greener and more cost-effective. With over 4,000 locations globally, nobody is better placed than Regus to help you make the best of it.",
+      cards: [
+        { id: "hybrid-1", alt: "Modern executive meeting and collaboration room" },
+        { id: "hybrid-2", alt: "Bright open-plan workspace with natural greenery" },
+        { id: "hybrid-3", alt: "Contemporary hybrid office interior with flexible seating" },
+      ],
+      ctaLabel: "Learn More",
+    },
+    howItWorks: {
+      titlePrefix: "How ",
+      titleHighlight: "It ",
+      titleSuffix: "Works",
+      subtitle: "Coworking & Flexible Office Marketplace | Search & Book Today",
+      steps: [
+        {
+          id: "step-1",
+          number: "1",
+          title: "Book, Reach or Call",
+          description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+          id: "step-2",
+          number: "2",
+          title: "View Location Info",
+          description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+          id: "step-3",
+          number: "3",
+          title: "Search Locations",
+          description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+      ],
+    },
+    products: {
+      priceStartingFrom: "Price Starting From:",
+      actions: {
+        bookNow: "Book Now",
+        learnMore: "Learn More",
+      },
+      categories: [
+        {
+          id: "shared-space",
+          tabLabel: "Shared Space",
+          icon: "shared-space",
+          title: "Shared Space",
+          subtitle: "(CO Work Space)",
+          description:
+            "Rent as many desks as you need in a dynamic, shared office space. Business Address and storage options included.",
+          features: [
+            "Reserved permanent workspace as long as you need",
+            "Book a desk by the hour or day in anyplace",
+            "A well-prepared place for your service and comfort",
+            "Hot desk as often as you need in any place",
+          ],
+          price: "1250 EGP",
+        },
+        {
+          id: "private-offices",
+          tabLabel: "Private Offices",
+          icon: "private-offices",
+          title: "Private Offices",
+          subtitle: "(Dedicated Team Suites)",
+          description:
+            "Fully furnished, lockable private offices tailored to teams of any size, complete with high-speed internet and reception support.",
+          features: [
+            "24/7 secure private access for your entire team",
+            "Customizable office layout and ergonomic furniture",
+            "Complimentary meeting room credits every month",
+            "Dedicated mail handling and business address",
+          ],
+          price: "3400 EGP",
+        },
+        {
+          id: "meeting-rooms",
+          tabLabel: "Meeting Rooms",
+          icon: "meeting-rooms",
+          title: "Meeting Rooms",
+          subtitle: "(On-Demand Boardrooms)",
+          description:
+            "Book fully equipped conference and boardrooms by the hour or day for client pitches, workshops, and team sessions.",
+          features: [
+            "Smart 4K displays and video conferencing hardware",
+            "High-speed Wi-Fi and acoustic soundproofing",
+            "On-site hospitality, coffee, and catering options",
+            "Instant hourly or full-day flexible booking",
+          ],
+          price: "450 EGP",
+        },
+        {
+          id: "virtual-offices",
+          tabLabel: "Virtual Offices",
+          icon: "virtual-offices",
+          title: "Virtual Offices",
+          subtitle: "(Remote Business Presence)",
+          description:
+            "Establish a prestigious business address with mail forwarding, dedicated call answering, and on-demand workspace access.",
+          features: [
+            "Prime commercial address for company registration",
+            "Professional mail receipt and forwarding service",
+            "Dedicated local phone number and receptionist",
+            "Flexible day-pass access to shared workspaces",
+          ],
+          price: "950 EGP",
+        },
+      ],
+    },
     latestListings: {
       title: "Latest Listings",
       subtitle: "Check our latest listings",

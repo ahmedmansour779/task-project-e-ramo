@@ -21,7 +21,7 @@ export function LatestListingsSection({ lang, content }: LatestListingsSectionPr
   const dir = lang === "ar" ? "rtl" : "ltr";
 
   return (
-    <section id="products" className="mx-auto w-full max-w-[1375px] px-4 py-12 sm:px-8 sm:py-16">
+    <section id="latest-listings" className="mx-auto w-full max-w-[1375px] px-4 py-12 sm:px-8 sm:py-16">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
